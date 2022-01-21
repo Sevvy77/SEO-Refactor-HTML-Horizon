@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*setting text size and displays for the main content of the application*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,55 +85,33 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*setting additional styles to elements within the sidebar of the application*/
+.benefit-brand, 
+.benefit-cost, 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-cost h3, 
+.benefit-brand h3, 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-brand img,
+.benefit-cost img,
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*styling the three sections of main information in the application with colors, fonts, boxing, and applying a constraint to height*/
+.social-media-marketing, 
+.online-reputation-management, 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,47 +121,17 @@ main {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
+/*setting size constraints on the images that display within the main sections of the application*/
+.search-engine-optimization img,
+.social-media-marketing img,
 .online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/*styling the headings of elements with these three tags in order to keep them uniform with each other.*/
+.social-media-marketing h2 ,
+.online-reputation-management h2,
 .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -198,3 +146,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+
